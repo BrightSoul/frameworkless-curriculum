@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <script type="module" src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" data-icons>
+    <style>
+        body {
+            background-color: #eee;
+            font-family: 'Open Sans', sans-serif;
+        }
+        a {
+            color: black !important;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <document-page>
+        <candidate-info name="John Doe" picture="/assets/photo.jpg" role="Señor web developer" birthday="01/01/1980 (41 yo)" location="Location (State)">
+            Put some impactful presentation of yourself here. Something that will make the recruiter scream: "wow, we gotta hire this guy right now!".
+            Remember to spell check what you type before sending, we don't want to make an embarassing first impression, right?
+        </candidate-info>
+        <contact-bar>
+            <contact-bar-item icon="fas fa-envelope-open"><a href="mailto:mail.account@example.com">mail.account@example.com</a></contact-bar-item>
+            <contact-bar-item icon="fas fa-phone-alt"><a href="tel:+3911111111">329 11111111</a></contact-bar-item>
+            <contact-bar-item icon="fab fa-linkedin"><a href="https://www.linkedin.com/in/fullname/">/in/fullname</a></contact-bar-item>
+            <contact-bar-item icon="fab fa-github"><a href="https://github.com/username">/username</a></contact-bar-item>
+        </contact-bar>
+        <sub-section title="Areas of expertise">
+            <expertise-container>
+                <expertise-chip>Backend web development</expertise-chip>
+                <expertise-chip>Distributed systems architecture</expertise-chip>
+                <expertise-chip>Database administration</expertise-chip>
+                <expertise-chip>Frontend web development</expertise-chip>
+                <expertise-chip>Cloud planning</expertise-chip>
+                <expertise-chip>Teaching</expertise-chip>
+            </expertise-container>
+        </sub-section>
+        <job-position employer="Kool Kryptos" area="financial services" period="2018-today" position="I made a very cool system to monitor cryptocurrency transactions. Everybody wants to use it now, it earned me a nice promotion to señor web developer and a pay raise.">
+            <ul>
+                <li>Made a web worker doing the monitoring stuff all day long. It's still running today.
+                    <tech-tags>ASP.NET Core, NUnit, Docker.</tech-tags>
+                </li>
+                <li>Designed an ingestion pipeline system holding aggregated data for visualization.
+                    <tech-tags>Apache Spark, Apache Cassandra, ElasticSearch.</tech-tags>
+                </li>
+            </ul>
+        </job-position>
+        <sub-section title="Soft skills">
+            <expertise-container>
+                <expertise-chip>Cool</expertise-chip>
+                <expertise-chip>Easy-going</expertise-chip>
+                <expertise-chip>Trustworthy</expertise-chip>
+                <expertise-chip>Reliable</expertise-chip>
+                <expertise-chip>Fun</expertise-chip>
+            </expertise-container>
+        </sub-section>
+        <sub-section title="Certifications">
+            <expertise-container>
+                <certification-badge image="/assets/aws-cloud-practitioner.png" link="https://www.credly.com/"></certification-badge>
+                <certification-badge image="/assets/microsoft1.png" link="https://www.credly.com/"></certification-badge>
+                <certification-badge image="/assets/microsoft2.png" link="https://www.credly.com/"></certification-badge>
+                <certification-badge image="/assets/microsoft3.png" link="https://www.credly.com/"></certification-badge>
+                <certification-badge image="/assets/microsoft4.png" link="https://www.credly.com/"></certification-badge>
+                <certification-badge image="/assets/microsoft5.png" link="https://www.credly.com/"></certification-badge>
+            </expertise-container>
+        </sub-section>
+        <sub-section title="Foreign languages">
+            <language-container>
+                <language-content language="Spanish" listening="Intermediate" reading="Advanced" interaction="Intermediate" production="Intermediate" writing="Advanced"></language-content>
+            </language-container>
+        </sub-section>
+    </document-page>
+    <document-page>
+        <sub-section title="Favorite books">
+            <published-container>
+                <published-content image="/assets/book1.jpg" link="https://www.amazon.it/SAINT-EXUPERY-PETIT-PRINCE/dp/2070612759" title="Le Petit Prince" rating="4.8" publisher="Saint-Exupery" period="1943"></published-content>
+                <published-content image="/assets/book2.jpg" link="https://www.amazon.it/Jonathan-Livingston-Seagull-Richard-Bach/dp/147679331X" title="Jonathan Livingstone Seagull" rating="4.7" publisher="Richard Bach" period="1970"></published-content>
+            </published-container>
+        </sub-section>
+        <sub-section title="Contributions to community">
+            <activity-item image="assets/1.png" period="2013-2020">Staff member of greatcommunity.ext.</activity-item>
+            <activity-item image="assets/2.png" period="2015-2016">Known for best lemonade in the neighborhood.</activity-item>
+            <activity-item image="assets/3.png" period="2007-today">Member of the crazy pants society.</activity-item>
+        </sub-section>
+        <sub-section title="Previous job experiences">
+            <job-position employer="Tasty bears" area="e-commerce" period="2017-2018" position="Developed an e-commerce for a gummy bears manufacturer. They provided free samples so I could write better persuasive product descriptions.">
+            </job-position>
+            <job-position employer="Colorful springs" area="mobility" period="2017-2018" position="Developed the firmware for an electric-powered pogo stick model. It can bounce as long as the sun's out, so you'll just have to grab it firmly and keep balance. Enjoy it responsibly.">
+            </job-position>
+        </sub-section>
+
+        <foot-notes>
+            <p>Please use my personal data responsibly.</p>
+            <p>This curriculum is <a href="https://github.com/BrightSoul/frameworkless-curriculum">frameworkless</a>.</p>
+        </foot-notes>
+    </document-page>
+</body>
+</html>

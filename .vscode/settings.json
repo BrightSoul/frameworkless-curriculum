@@ -1,0 +1,19 @@
+{
+    "standard.engine": "semistandard",
+    "editor.tabSize": 2,
+    "standard.autoFixOnSave": true,
+    "standard.options": {
+        "globals": ["HTMLElement", "CSSStyleSheet"],
+        "ignore": [
+            "node_mudules/**"
+        ]
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules/**": true
+    }
+}

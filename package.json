@@ -1,0 +1,16 @@
+{
+  "name": "frameworkless-curriculum",
+  "version": "1.0.0",
+  "description": "Make your own CV using web components!",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moreno Gentili",
+  "license": "ISC",
+  "devDependencies": {
+    "semistandard": "^16.0.1",
+    "serve": "^12.0.0"
+  }
+}
